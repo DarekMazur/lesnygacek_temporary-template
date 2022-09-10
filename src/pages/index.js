@@ -1,12 +1,17 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import { createGlobalStyle } from 'styled-components';
+import Border from '../components/Border';
 import background from '../images/backgr.jpg';
 
 const GlobalStyle = createGlobalStyle`
   html, body {
     padding: 0;
     margin: 0;
+  }
+
+  html {
+    box-sizing: border-box;
   }
 
   body {
@@ -37,12 +42,12 @@ const CenterDiv = styled.div`
   align-items: center;
 `;
 
-const Border = styled.div`
-  height: 30vh;
-  width: 80vw;
-  border-top: solid white 2px;
-  border-bottom: solid white 2px;
-`;
+// const Border = styled.div`
+//   height: 30vh;
+//   width: 80vw;
+//   border-top: solid white 2px;
+//   border-bottom: solid white 2px;
+// `;
 
 const Paragraph = styled.p`
   font-size: 20px;
