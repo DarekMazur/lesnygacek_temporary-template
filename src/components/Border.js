@@ -8,6 +8,10 @@ const intro = keyframes`
     height: 0;
     width: 0;
   }
+  50% {
+    height: 0;
+    width: 80vw;
+  }
   100% {
     height: 30vh;
     width: 80vw;
@@ -19,7 +23,7 @@ const StyledBorder = styled.div`
   width: 0;
   border-top: solid white 2px;
   border-bottom: solid white 2px;
-  animation: 0.8s normal forwards 1s 1 ${intro} ease-in-out;
+  animation: 2s normal forwards 0.5s 1 ${intro} ease-in-out;
   overflow: hidden;
 `;
 
