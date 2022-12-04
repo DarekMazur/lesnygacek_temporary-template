@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import { keyframes } from 'styled-components';
-import campfire from '../images/campfire.svg';
+import campfire from '../images/logo.svg';
 
 const intro = keyframes`
   0% {
